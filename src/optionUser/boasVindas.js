@@ -7,13 +7,16 @@ function execute(user, msg, contato) {
   let arrayMsgRetorno = [];
   arrayMsgRetorno.push({stage: 1});
 
-  arrayMsgRetorno.push({texto: `*Olá* ${contato}, Bem vindo(a) ao 🤖 Robô de ${infoCliente.info.NOME_CLIENTE}💎,
+  arrayMsgRetorno.push({texto: `
+  *Olá* ${contato},
+  Bem vindo(a) ao atendimento inteligente da ${infoCliente.info.NOME_CLIENTE} 😃,
   
-  1️⃣ - Fazer pedido de um acessório lindo.
-  6️⃣ - Falar diretamente ( _*Emilly*_ )
+  *1* - Para realizar um pedido e matar sua fome 😋
   
-  *_Digite a opção desejada._* 
+  *6* - Para falar com um de nossos atendentes 📱
+
   `});
+
   return arrayMsgRetorno;
 }
 
