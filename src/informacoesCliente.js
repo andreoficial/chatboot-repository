@@ -1,5 +1,5 @@
  const NOME_CLIENTE = " *MEGS BURGER* ";
- const ENDERECO = "Rua Alvorada, 32, Igapó - Natal-RN, 59104-210";
- const TELEFONE = "(84) 98711-7230";
+ const ENDERECO = "R. Tomé André, 67 - Jardim Miriam, São Paulo - SP, 04417-080";
+ const TELEFONE = "(11) 98401-3073";
 
 exports.info =  {NOME_CLIENTE,ENDERECO, TELEFONE }

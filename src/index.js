@@ -44,7 +44,7 @@ function sendMessageUser(user, client, msg){
   //enviar msg
   client.sendText(user, msg)
   .then((result) => {
-    //console.log('Sucesso ao enviar mensagem: ', result);
+    console.log('Sucesso ao enviar mensagem: ', result);
   })
   .catch((erro) => {
     console.error('Erro ao enviar mensagem: ', erro);

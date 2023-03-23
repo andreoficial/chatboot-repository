@@ -1,5 +1,9 @@
 const menu = require("./menu");
 const banco = require("../banco");
+const resumoPedido = require('./resumoPedido');
+const alterarPedido = require('./alterarPedido');
+const finalizarPedido = require('./finalizarPedido/finalizarPedido');
+const cancelarPedido = require('./cancelamentoPedido');
 
 function execute(user, msg) {
 
